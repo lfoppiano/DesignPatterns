@@ -5,3 +5,7 @@ The structure I used is divided in two parts, the definition and the sample:
  - the sample is showing one or more practical examples
 
 For any remarks and suggestions, please feel free to contact me.
+
+Design pattern currently implemented:
+ - Strategy: org.foppiano.designpatten.strategy
+ - Observer: org.foppiano.designpattern.observer
