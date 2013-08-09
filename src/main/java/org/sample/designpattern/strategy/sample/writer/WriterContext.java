@@ -1,9 +1,6 @@
 package org.sample.designpattern.strategy.sample.writer;
 
 import org.sample.designpattern.strategy.sample.writer.strategies.OutputStrategy;
-import org.sample.designpattern.strategy.sample.writer.strategies.impl.PlainTextOutputStrategy;
-
-import java.io.File;
 
 /**
  * Created with IntelliJ IDEA.

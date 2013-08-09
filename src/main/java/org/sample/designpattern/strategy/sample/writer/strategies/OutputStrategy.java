@@ -1,6 +1,5 @@
 package org.sample.designpattern.strategy.sample.writer.strategies;
 
-import java.io.File;
 import java.io.InputStream;
 
 /**
