@@ -1,1 +1,7 @@
-This file was created by IntelliJ IDEA 12.1.3 for binding GitHub repository
+This project is an attempt to apply my current update on design patterns.
+
+The structure I used is divided in two parts, the definition and the sample:
+ - the definition is showing an implementation from theoretical point of view
+ - the sample is showing one or more practical examples
+
+For any remarks and suggestions, please feel free to contact me.
