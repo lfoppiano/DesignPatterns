@@ -19,8 +19,8 @@ public class ObservableObjectIntegrationTest {
     public void setUp() throws Exception {
         target = new ObservableObject();
 
-        WildObserver wo = new WildObserver(target);
-        CalmObserver co = new CalmObserver(target);
+        Observer wo = new WildObserver(target);
+        Observer co = new CalmObserver(target);
     }
 
     @Test
@@ -34,6 +34,11 @@ public class ObservableObjectIntegrationTest {
     public void testWithNoObservers() throws Exception {
         target = new ObservableObject();
 
+        Observer wo = new WildObserver(target);
+        target.deleteObserver(wo);
+
         target.setState(123455667);
     }
+
+
 }
