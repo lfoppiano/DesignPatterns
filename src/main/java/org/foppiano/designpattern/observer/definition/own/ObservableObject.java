@@ -13,6 +13,7 @@ import java.util.List;
 public class ObservableObject implements Subject {
 
     private List<Observer> observers;
+    private Integer state;
 
     public ObservableObject() {
         observers = new ArrayList<Observer>();
@@ -30,15 +31,17 @@ public class ObservableObject implements Subject {
 
     @Override
     public void notifyObservers() {
-        for(Observer observer : observers) {
+        for (Observer observer : observers) {
             observer.update();
         }
     }
 
-    public void setState() {
-        //changing something
-
-        notifyObservers();
+    public void setState(Integer newState) {
+        System.out.println("New state " + newState);
+        if (state == null || !this.state.equals(newState)) {
+            this.state = newState;
+            notifyObservers();
+        }
     }
 
 

@@ -17,7 +17,7 @@ public class ObservableObject extends Observable{
         attribute = 0;
     }
 
-    public void setAttribute(Integer newAttribute) {
+    public void setState(Integer newAttribute) {
         if(!this.attribute.equals(newAttribute)) setChanged();
 
         this.attribute = newAttribute;

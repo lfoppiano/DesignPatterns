@@ -21,6 +21,6 @@ public class WildObserver implements Observer {
 
     @Override
     public void update() {
-        System.out.println("I'm updating myself! Cheers! ");
+        System.out.println("I'm updating myself! Cheers! " + this.getClass().getSimpleName());
     }
 }

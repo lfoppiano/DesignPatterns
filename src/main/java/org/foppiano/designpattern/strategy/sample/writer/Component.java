@@ -15,8 +15,7 @@ public class Component {
     public void writePlain() {
         WriterContext out = new WriterContext(new PlainTextOutputStrategy());
 
-
-        out.write("maronna", "file1");
+       out.write("maronna", "file1");
         out.write("baoboa", "file2");
         out.write("maronnnaaaazza", "file3");
 
