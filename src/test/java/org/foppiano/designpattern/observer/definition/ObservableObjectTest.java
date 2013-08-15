@@ -1,7 +1,8 @@
 package org.foppiano.designpattern.observer.definition;
 
-import org.foppiano.designpattern.observer.definition.observers.CalmObserver;
-import org.foppiano.designpattern.observer.definition.observers.WildObserver;
+import org.foppiano.designpattern.observer.definition.java.observers.CalmObserver;
+import org.foppiano.designpattern.observer.definition.java.ObservableObject;
+import org.foppiano.designpattern.observer.definition.java.observers.WildObserver;
 import org.junit.Before;
 import org.junit.Test;
 

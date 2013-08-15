@@ -1,4 +1,4 @@
-package org.foppiano.designpattern.observer.definition.observers;
+package org.foppiano.designpattern.observer.definition.java.observers;
 
 import java.util.Observable;
 import java.util.Observer;

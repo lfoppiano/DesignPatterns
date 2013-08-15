@@ -9,3 +9,5 @@ For any remarks and suggestions, please feel free to contact me.
 Design pattern currently implemented:
  - Strategy: org.foppiano.designpatten.strategy
  - Observer: org.foppiano.designpattern.observer
+    a) definition with JAVA API (org.foppiano.designpattern.observer.java)
+    b) definition with own classes (org.foppiano.designpattern.observer.own)

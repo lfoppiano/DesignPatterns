@@ -1,4 +1,4 @@
-package org.foppiano.designpattern.observer.definition;
+package org.foppiano.designpattern.observer.definition.java;
 
 import java.util.Observable;
 
@@ -7,7 +7,7 @@ import java.util.Observable;
  * User: lf84914
  * Date: 09/08/13
  * Time: 09:03
- * To change this template use File | Settings | File Templates.
+ * Implementation using the java API internal
  */
 public class ObservableObject extends Observable{
 
