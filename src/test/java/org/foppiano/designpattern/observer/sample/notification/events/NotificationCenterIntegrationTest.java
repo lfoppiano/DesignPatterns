@@ -11,6 +11,12 @@ import org.junit.Test;
  * Date: 18/08/13
  * Time: 12:45
  * This integration test gives you an idea on how the classes are working together.
+ * The notification takes a String (but the idea is that takes a stream or an object) and notify the Displays
+ * when something change.
+ *
+ * The logic to understand what to notify is in the display itself, mainly for simplicity
+ * in theory if the number of displays are increasing would be better to have a more separated
+ * set of logic to notify only the displays that should be notified.
  *
  */
 public class NotificationCenterIntegrationTest {
