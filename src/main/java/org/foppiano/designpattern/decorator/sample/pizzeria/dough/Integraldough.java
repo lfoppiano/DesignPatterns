@@ -15,6 +15,6 @@ public class IntegralDough extends PizzaDough{
 
     @Override
     public String getDescription() {
-        return "Healthy integral dough";
+        return "Healthy integral dough, ";
     }
 }
