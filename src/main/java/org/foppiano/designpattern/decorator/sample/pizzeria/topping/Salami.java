@@ -24,6 +24,6 @@ public class Salami extends PizzaTopping{
 
     @Override
     public String getDescription() {
-        return base.getDescription() + "Salami. ";
+        return base.getDescription() + "Salami, ";
     }
 }

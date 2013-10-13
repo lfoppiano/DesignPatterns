@@ -24,6 +24,6 @@ public class Basilicum extends PizzaTopping{
 
     @Override
     public String getDescription() {
-        return base.getDescription() + "Basilicum. ";
+        return base.getDescription() + "Basilicum, ";
     }
 }

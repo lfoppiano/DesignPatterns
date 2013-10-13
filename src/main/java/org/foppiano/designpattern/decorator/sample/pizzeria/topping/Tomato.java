@@ -24,6 +24,6 @@ public class Tomato extends PizzaTopping{
 
     @Override
     public String getDescription() {
-        return base.getDescription() + "Tomato. ";
+        return base.getDescription() + "Tomato, ";
     }
 }

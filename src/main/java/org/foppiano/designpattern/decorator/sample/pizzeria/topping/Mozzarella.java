@@ -23,6 +23,6 @@ public class Mozzarella extends PizzaTopping{
 
     @Override
     public String getDescription() {
-        return base.getDescription() + "Mozzarella. ";
+        return base.getDescription() + "Mozzarella, ";
     }
 }
