@@ -1,5 +1,6 @@
 package org.foppiano.designpattern.decorator.sample.pizzeria;
 
+import org.foppiano.designpattern.decorator.sample.pizzeria.dough.IntegralDough;
 import org.foppiano.designpattern.decorator.sample.pizzeria.dough.PlainDough;
 import org.foppiano.designpattern.decorator.sample.pizzeria.topping.Basilicum;
 import org.foppiano.designpattern.decorator.sample.pizzeria.topping.Mozzarella;
@@ -30,6 +31,16 @@ public class PizzeriaIntegrationTest {
         assertThat(pizza1.getDescription(), is("Plain Pizza, Basilicum, Tomato, Mozzarella, "));
     }
 
+    @Test
+    public void testPizzaWithALootOfMozzarella() throws Exception {
+        Pizza pizza2 = new IntegralDough();
+        pizza2 = new Basilicum(pizza2);
+        pizza2 = new Mozzarella(pizza2);
+        pizza2 = new Mozzarella(pizza2);
+        pizza2 = new Mozzarella(pizza2);
+        pizza2 = new Tomato(pizza2);
 
-
+        assertThat(pizza2.getCost(), is(9.2));
+        assertThat(pizza2.getDescription(), is("Healthy integral dough, Basilicum, Mozzarella, Mozzarella, Mozzarella, Tomato, "));
+    }
 }
