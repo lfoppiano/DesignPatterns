@@ -1,6 +1,6 @@
-package org.foppiano.designpattern.factory.definition.impl;
+package org.foppiano.designpattern.factory.method.definition.impl;
 
-import org.foppiano.designpattern.factory.definition.Product;
+import org.foppiano.designpattern.factory.method.definition.Product;
 
 /**
  * Created with IntelliJ IDEA.

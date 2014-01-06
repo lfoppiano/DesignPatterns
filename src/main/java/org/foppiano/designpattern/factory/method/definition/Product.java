@@ -1,4 +1,4 @@
-package org.foppiano.designpattern.factory.definition;
+package org.foppiano.designpattern.factory.method.definition;
 
 /**
  * Created with IntelliJ IDEA.

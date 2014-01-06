@@ -1,4 +1,4 @@
-package org.foppiano.designpattern.factory.definition;
+package org.foppiano.designpattern.factory.method.definition;
 
 /**
  * Created with IntelliJ IDEA.
@@ -6,7 +6,7 @@ package org.foppiano.designpattern.factory.definition;
  * Date: 02/01/14
  * Time: 12:47
  *
- * Factory Method Pattern: defines an interface for creating an object,
+ * Factory Method Pattern: defines an interface for creating <b>an</b> object,
  * but lets his subclasses decide which object and which implementation
  * to use.
  */
