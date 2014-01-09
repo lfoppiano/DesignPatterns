@@ -12,3 +12,5 @@ Design pattern currently implemented:
     a) definition with JAVA API (org.foppiano.designpattern.observer.java)
     b) definition with own classes (org.foppiano.designpattern.observer.own)
  - Decorator: org.foppiano.designpattern.decorator
+ - Factory Method: org.foppiano.designpattern.factory.method
+ - Abstract Factory: org.foppiano.designpattern.factory.abstract_
