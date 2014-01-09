@@ -12,6 +12,9 @@ package org.foppiano.designpattern.factory.method.definition;
  */
 public abstract class Creator {
 
+    /** In this case is abstract, but it can be a default
+     * implementation which any subclass can override if they need.
+     */
     public abstract Product createMyCoreObject();
 
     public void operation(Product product)  {
