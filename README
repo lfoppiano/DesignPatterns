@@ -14,3 +14,4 @@ Design pattern currently implemented:
  - Decorator: org.foppiano.designpattern.decorator
  - Factory Method: org.foppiano.designpattern.factory.method
  - Abstract Factory: org.foppiano.designpattern.factory.abstract_
+ - Singleton: org.foppiano.designpattern.singleton (only definition)
