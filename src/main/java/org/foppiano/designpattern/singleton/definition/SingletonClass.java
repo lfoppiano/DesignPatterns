@@ -10,13 +10,13 @@ package org.foppiano.designpattern.singleton.definition;
  */
 public class SingletonClass {
 
-    private static SingletonClassEager instance = null;
+    private static SingletonClass instance = null;
 
     private SingletonClass() {}
 
-    public static SingletonClassEager getInstance() {
-        if (instance != null) {
-            instance = new SingletonClassEager();
+    public static SingletonClass getInstance() {
+        if (instance == null) {
+            instance = new SingletonClass();
         }
 
         return instance;
